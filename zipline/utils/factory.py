@@ -30,8 +30,6 @@ from zipline.sources.test_source import create_trade
 from zipline.utils.calendars import get_calendar
 from zipline.utils.input_validation import expect_types
 
-__all__ = ['load_from_yahoo']
-
 
 def create_simulation_parameters(year=2006, start=None, end=None,
                                  capital_base=float("1.0e5"),
