@@ -28,7 +28,6 @@ from ..utils.paths import (
     cache_root,
     data_root,
 )
-from ..utils.deprecate import deprecated
 from zipline.utils.calendars import get_calendar
 
 
